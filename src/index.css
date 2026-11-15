@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Kalam&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import "tailwindcss";
+
+@keyframes greenGlow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px #22c55e);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #22c55e);
+  }
+}
+
+.green-glow {
+  animation: greenGlow 2s infinite ease-in-out;
+}
+
+@theme {
+  --font-heading: "Space Grotesk", sans-serif;
+  --font-body: "Bricolage Grotesque", sans-serif;
+  --font-code: "Orbitron", sans-serif;
+  --font-elegant: "Playfair Display", serif;
+  --font-slab: "Epunda Slab", serif;
+  --font-saira: "Saira", sans-serif;
+  --font-hand: "Kalam", cursive;
+  --font-lobster: "Lobster Two", cursive;
+}
