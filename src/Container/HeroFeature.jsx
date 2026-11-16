@@ -35,7 +35,7 @@ const HeroFeature = () => {
 
       <div className="flex items-center mt-5 text-center">
         <a
-          href=""
+          href="/projects"
           className=" border-2 border-green-400 p-3 rounded-2xl text-lg  font-semibold hover:px-5 transition-all duration-300"
         >
           Explore My Work
