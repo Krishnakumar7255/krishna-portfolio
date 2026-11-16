@@ -1,3 +1,5 @@
+
+import { Link } from "react-router-dom";
 import React from "react";
 import reactlogo from "../assets/react.png";
 import pythonlogo from "../assets/python.png";
@@ -34,12 +36,12 @@ const HeroFeature = () => {
       </div>
 
       <div className="flex items-center mt-5 text-center">
-        <a
-          href="/projects"
+        <Link
+          to="/projects"
           className=" border-2 border-green-400 p-3 rounded-2xl text-lg  font-semibold hover:px-5 transition-all duration-300"
         >
           Explore My Work
-        </a>
+        </Link>
       </div>
 
       <div className="flex mt-8 items-center gap-8">
